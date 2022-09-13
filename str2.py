@@ -1,3 +1,3 @@
 string = input()
-words = string.split()
-print(f'{words[1]} {words[0]}')
+indexSpace = string.find(" ")
+print(f'{string[indexSpace+1:]} {string[:indexSpace]}')
