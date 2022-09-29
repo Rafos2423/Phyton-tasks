@@ -7,7 +7,7 @@ for i in range(n):
 
 requireValue = input()
 
-for key, value in words.items():
-    if value == requireValue:
-        print(key)
+for i in words:
+    if words[i] == requireValue:
+        print(i)
         break
