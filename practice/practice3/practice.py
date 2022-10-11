@@ -1,6 +1,8 @@
 import random
 
-words = [ 'игра', 'задача']
+f = open('words.txt', 'r', encoding='utf-8')
+text = f.read()
+words = text.split()
 
 def right_move():
     print(*print_word)
@@ -55,7 +57,7 @@ while True:
 
     print_word = []
     for i in range(len(word)):
-        print_word.append('_')
+        print_word.append('\u25A0')
 
     while attemps > 0:
         print('Name the letter or word: ')
@@ -63,7 +65,7 @@ while True:
 
         if len(n) == 1: #игрок угадывает букву из слова
             if find_letter():
-                if not print_word.__contains__('\U25AO'):
+                if not print_word.__contains__("_"):
                     win()
                     break
                 else:
