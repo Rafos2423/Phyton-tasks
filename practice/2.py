@@ -10,10 +10,11 @@ def birthday(coltime):
     for k in range(coltime):
 
         for i in range(count_people):
-            b_days.append(str(f'{random.randint(1, 28)} {random.randint(1, 12)}'))
-
-        if len(set(b_days)) == len(b_days):
-            count_true += 1
+            d = str(f'{random.randint(1, 28)} {random.randint(1, 12)}')
+            if b_days.__contains__(d):
+                count_true += 1
+                break
+            b_days.append(d)
 
         b_days.clear()
     return count_true / iterations * 100

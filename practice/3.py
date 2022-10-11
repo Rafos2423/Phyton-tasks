@@ -63,7 +63,7 @@ while True:
 
         if len(n) == 1: #игрок угадывает букву из слова
             if find_letter():
-                if not print_word.__contains__('_'):
+                if not print_word.__contains__('\U25AO'):
                     win()
                     break
                 else:
