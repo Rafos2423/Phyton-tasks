@@ -6,15 +6,14 @@ def get_coord():
     return a / 100000
 
 def create_list(*args, **kwargs):
-    result = {}
+    result = []
     countPoint = 0
     for i in args:
         countPoint += 1
-        index = f'point {countPoint}'
-        result[index] = task3.deg_to_gms(i)
+        result.append(f'point {countPoint} = {task3.deg_to_gms(i)}')
     for k, v in kwargs.items():
-        result[k] = task3.deg_to_gms(v)
+        result.append(f'{k} = {task3.deg_to_gms(i)}')
 
-    return result.items()
+    return result
 
 print(*create_list(get_coord(), get_coord(), get_coord(), get_coord(), pole = get_coord(), put_1 = get_coord()), sep = "\n")
