@@ -1,9 +1,6 @@
 import random
 
-iterations = 10000
-count_people = 23
-
-def birthday(coltime):
+def birthday(coltime, count_people):
     b_days = []
     count_true = 0
 
@@ -17,11 +14,11 @@ def birthday(coltime):
             b_days.append(d)
 
         b_days.clear()
-    return count_true / iterations * 100
+    return count_true / coltime * 100
 
 
-statement1 = birthday(iterations)
-count_pairs = count_people * (count_people - 1) / 2
+statement1 = birthday(1000, 23)
+count_pairs = 23 * (23 - 1) / 2
 statement2 = count_pairs / (28 * 12) * 100
 
 print('%.2f, %.2f' % (statement1, statement2))

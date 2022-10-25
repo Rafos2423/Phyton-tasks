@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/task3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/practice6/newfile" beforeDir="false" afterPath="$PROJECT_DIR$/practice/practice6/newfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/practice6/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/practice6/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paradox/BirthDay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paradox/MontyHoll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Paradox/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/.idea/4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1/primer.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,20 +41,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/Python Жуков Пугачев/practice/practice3&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Student/Python Жуков Пугачев/Dir"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Python Жуков Пугачев\Dir" />
       <recent name="C:\Users\Student\Python Жуков Пугачев\practice\practice3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task4 (1)">
-    <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.new">
+    <configuration name="BirthDay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Жуков Пугачев" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice/practice6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/practice6/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dir/BirthDay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -65,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MontyHoll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Жуков Пугачев" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/practice/practice3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dir" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice/practice3/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dir/MontyHoll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python Жуков Пугачев" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,7 +109,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python Жуков Пугачев" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,34 +160,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Жуков Пугачев" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Student\Python Жуков Пугачев\task4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.new" />
+        <item itemvalue="Python.MontyHoll" />
+        <item itemvalue="Python.BirthDay" />
+        <item itemvalue="Python.task2" />
         <item itemvalue="Python.task4 (1)" />
-        <item itemvalue="Python.task4" />
-        <item itemvalue="Python.practice (1)" />
-        <item itemvalue="Python.task3" />
-        <item itemvalue="Python.practice" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666084900992</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="-">
+      <created>1666085084331</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666085084331</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
