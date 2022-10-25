@@ -1,4 +1,4 @@
-Всего уникальных слов: 72 
+Р’СЃРµРіРѕ СѓРЅРёРєР°Р»СЊРЅС‹С… СЃР»РѕРІ: 72 
 ================
 a
 about
@@ -23,7 +23,7 @@ form
 formal
 found
 function
-functionвђs
+functionРІС’s
 good
 habit
 in
@@ -33,7 +33,7 @@ interactively
 introduces
 is
 it
-itвђs
+itРІС’s
 keyword
 let
 line
