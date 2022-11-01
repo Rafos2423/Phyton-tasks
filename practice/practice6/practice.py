@@ -11,13 +11,14 @@ for line in text:
         data.append(info[0])
 
 rasp = []
-for i in range(len(data)):
-    time = re.search(r'\d{2}:\d{2}:\d{2}', data[i])
-    train_number = re.search(r'\d{3}', data[i])
-    town = re.search(r'\w{4,10}', data[i])
-    where = re.search(r'(?:из|в)', data[i])
-    line = f'[{time}] - Поезд № {train_number} {where} {town} \n}'
-    rasp.append(line)
+for line in data:
+    time = re.search(r'\d{2}:\d{2}:\d{2}', line).group(0)
+    train_number = re.search(r'\d{3}', line).group(0)
+    town = re.search(r'(?:из|в)\s\w{4,10}', line).group(0)
+    rasp.append(f'[{time}] - Поезд № {train_number} {town}')
 
 f = open('newfile', 'a', encoding='utf-8')
-f.write('\n'.join(data))
+if len(text) != 0:
+    f.seek(0)
+
+f.write('\n'.join(rasp))

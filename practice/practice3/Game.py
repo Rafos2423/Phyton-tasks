@@ -2,8 +2,8 @@ import random
 
 def get_words(path = 'words.txt'):
     f = open(path, 'r', encoding='utf-8')
-    text = f.read()
-    return text.split()
+    text = f.readlines()
+    return text
 
 def right_move():
     print(*print_word)
@@ -27,7 +27,7 @@ def next_game():
 def complexity_game():
     print('Choose complexity: 1 - 3 lives, 2 - 5 lives, 3 - 7 lives')
     choice = input()
-    return (2 * int(choice) + 1) if choice == '1' or choice == '2' or choice == '3' else  complexity_game()
+    return (2 * int(choice) + 1) if choice == '1' or choice == '2' or choice == '3' else 0
 
 
 def player_lose(a):
@@ -38,18 +38,6 @@ def player_lose(a):
         false_move(attemps)
     return a
 
-def Check(letter, word):
-    if letter in word:
-        if "_" in print_word:
-            win()
-        else:
-            right_move()
-        return True
-    else:
-        return False
-
-def
-
 
 while True:
     words = get_words()
@@ -57,6 +45,8 @@ while True:
     words.remove(word)
 
     attemps = complexity_game()
+    while attemps == 0:
+        attemps = complexity_game()
 
     print_word = []
     for i in range(len(word)):

@@ -8,6 +8,7 @@ def read_file(name):
     words = text.split() #разделение
     words = list(set(words)) #удаление повторов
     words.sort() #сортировка
+    f.close()
     return words
 
 def save_file(name, words):
