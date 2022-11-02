@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Paradox/BirthDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Paradox/MontyHoll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Paradox/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +38,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/Python Жуков Пугачев/Dir&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Code/Py/Practice&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\Py\Practice" />
       <recent name="C:\Users\Student\Python Жуков Пугачев\Dir" />
       <recent name="C:\Users\Student\Python Жуков Пугачев\practice\practice3" />
     </key>
   </component>
   <component name="RunManager" selected="Python.1">
     <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Жуков Пугачев" />
+      <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -65,7 +71,7 @@
       <method v="2" />
     </configuration>
     <configuration name="MontyHoll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Жуков Пугачев" />
+      <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -86,7 +92,7 @@
       <method v="2" />
     </configuration>
     <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Жуков Пугачев" />
+      <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -107,7 +113,7 @@
       <method v="2" />
     </configuration>
     <configuration name="practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Жуков Пугачев" />
+      <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -128,7 +134,7 @@
       <method v="2" />
     </configuration>
     <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python Жуков Пугачев" />
+      <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -272,7 +278,35 @@
       <option name="project" value="LOCAL" />
       <updated>1666689321358</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="-">
+      <created>1667369763814</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667369763814</updated>
+    </task>
+    <task id="LOCAL-00017" summary="-">
+      <created>1667369856963</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667369856963</updated>
+    </task>
+    <task id="LOCAL-00018" summary="-">
+      <created>1667369875807</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667369875807</updated>
+    </task>
+    <task id="LOCAL-00019" summary="-">
+      <created>1667369933691</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667369933691</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
