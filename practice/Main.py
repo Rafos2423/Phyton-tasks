@@ -1,4 +1,3 @@
-import Paradox
+from Pole import *
 
-print(Paradox.birthday(10000, 60))
-print(Paradox.game(100000))
+

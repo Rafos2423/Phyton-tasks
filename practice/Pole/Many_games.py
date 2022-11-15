@@ -12,6 +12,7 @@ def choose_continue_game(words):
     choose_continue_game(words)
 
 def find_word(words):
+    print(words)
     word = random.choice(words)
     words.remove(word)
     return word

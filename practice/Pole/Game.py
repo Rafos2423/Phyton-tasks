@@ -6,8 +6,6 @@ def choose_complexity():
 
 def check_input(word):
     n = input('\nВведите букву или слово: ')
-    if len(n) != 1 or len(n) != len(word):
-        check_input(word)
     if re.findall(r'[а-яА-Я]', n) == []:
         check_input(word)
     return n
