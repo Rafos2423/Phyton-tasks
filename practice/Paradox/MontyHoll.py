@@ -1,6 +1,11 @@
 import random
 
-def game(iterations):
+def game(iterations: int) -> str:
+    '''
+
+    :param iterations: кол-во повторов
+    :return: процент побед если игрок согласится с ведущим и процент если нет
+    '''
     agree = 0
     not_agree = 0
 

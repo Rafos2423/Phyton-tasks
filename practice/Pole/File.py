@@ -1,6 +1,11 @@
 import os
 
-def get_words(path = os.path.dirname(__file__) + '\\' + 'words.txt'):
+def get_words(path: str= os.path.dirname(__file__) + '\\' + 'words.txt') -> list[str]:
+    '''
+    Ошибка если не удалось прочитать файл
+    :param path: путь файла
+    :return: список слов для игры
+    '''
     if not check_file(path):
         print('Ошибка!')
     f = open(path, 'r+', encoding='utf-8')
@@ -9,7 +14,13 @@ def get_words(path = os.path.dirname(__file__) + '\\' + 'words.txt'):
     f.close()
     return words
 
-def write_record(record, file= os.path.dirname(__file__) + '\\' + 'record.txt'):
+def write_record(record: int, file: str= os.path.dirname(__file__) + '\\' + 'record.txt') -> None:
+    '''
+    Ошибка если не удалось прочитать файл
+    :param record: рекорд игрока
+    :param file: путь к файлу в который записывается рекорд
+    :return:
+    '''
     if not check_file(file):
         print('Ошибка!')
     f = open(file, 'r+', encoding='utf-8')
@@ -20,7 +31,12 @@ def write_record(record, file= os.path.dirname(__file__) + '\\' + 'record.txt'):
         f.write(str(record))
     f.close()
 
-def check_file(filename):
+def check_file(filename: str) -> bool:
+    '''
+
+    :param filename: путь к файлу
+    :return: есть ли ошибка
+    '''
     error = True
     try:
         text = open(filename, 'r', encoding='utf-8')

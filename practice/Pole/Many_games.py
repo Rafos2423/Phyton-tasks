@@ -1,6 +1,11 @@
 import random
 
-def choose_continue_game(words):
+def choose_continue_game(words: list[str]) -> bool:
+    '''
+
+    :param words: список слов для игры
+    :return: выбор пользователя продолжения игры
+    '''
     if len(words) == 0:
         return False
 
@@ -11,7 +16,12 @@ def choose_continue_game(words):
         return False
     choose_continue_game(words)
 
-def find_word(words):
+def find_word(words: list[str]) -> str:
+    '''
+
+    :param words: список слов для игры
+    :return: случайное слово из списка
+    '''
     print(words)
     word = random.choice(words)
     words.remove(word)

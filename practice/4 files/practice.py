@@ -1,6 +1,11 @@
 import re
 
-def read_file(name):
+def read_file(name: str) -> list[str]:
+    '''
+
+    :param name: путь к файлу чтения
+    :return: список отсортированных уникальных слов без спец симоволов
+    '''
     f = open(name, 'r')
     text = f.read() #чтение из файла
     text = re.sub(r'[^\w\s]', '', text) #удаление пунктуации
@@ -11,7 +16,13 @@ def read_file(name):
     f.close()
     return words
 
-def save_file(name, words):
+def save_file(name: str, words: list[str]) -> None:
+    '''
+
+    :param name: путь к файлу записи
+    :param words: список слов
+    :return:
+    '''
     f = open(name, 'r')
     text = f.read()
     if len(text) != 0:
