@@ -2,8 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/Books/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice/Books/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Пугачев В..iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Пугачев В..iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paradox/BirthDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paradox/MontyHoll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Paradox/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RE extensions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RE extensions/findAllinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/1 base/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/1/.idea/1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/1/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/10/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/10/.idea/10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/10/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/10/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/2/.idea/2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/2/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/3/.idea/3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/4/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/4/.idea/4.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/4/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/4/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/4/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/4/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/.idea/5.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/5/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/6/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/6/.idea/6.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/6/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/6/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/6/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/7/.idea/7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/7/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/7/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/.idea/8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/8/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/9/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/9/.idea/9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/9/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/9/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/2 num/9/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/3 str/str1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/3 str/str2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/3 str/str3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/3 str/str4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/3 str/str5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/4 if/9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/6v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/5 while/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/6 list/9.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/1v2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskModules/7 dict/7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/4 files/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/4 files/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/4 files/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/5 ex/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/5 ex/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/6 re/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/6 re/newfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/6 re/practice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Books/file.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Books/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Paradox/BirthDay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Paradox/MontyHoll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Paradox/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Pole/File.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Pole/Game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Pole/Many_games.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Pole/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Pole/record.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/Pole/words.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,15 +174,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Code/Py&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Code/Py/Phyton-tasks/.idea",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\Py\Practice" />
@@ -45,8 +190,50 @@
       <recent name="C:\Users\Student\Python Жуков Пугачев\practice\practice3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.OfficeTweaks">
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.1">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Пугачев В." />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TaskModules/1 base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TaskModules/1 base/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Пугачев В." />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TasksOnLessons" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TasksOnLessons/4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +275,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OfficeTweaks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="OfficeTweaks" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="findAllinfo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="findAllinfo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,11 +340,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.OfficeTweaks" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.4" />
         <item itemvalue="Python.task" />
-        <item itemvalue="Python.findAllinfo" />
         <item itemvalue="Python.Many_games" />
-        <item itemvalue="Python.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +596,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/practice/Books/task.py</url>
+          <url>file://$PROJECT_DIR$/Practice/Books/task.py</url>
           <line>3</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
