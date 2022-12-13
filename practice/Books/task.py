@@ -1,5 +1,6 @@
 import csv
 
+
 def get_books(filename: str, name: str):
     with open(filename, 'r') as f:
         reader = csv.reader(f, delimiter='|')
@@ -13,3 +14,4 @@ def get_books(filename: str, name: str):
 
 
 books = get_books("file.csv", "python")
+print(books)
