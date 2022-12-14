@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/Practices/8 LearnEnglish/TransletedWords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practices/8 LearnEnglish/dialog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practices/8 LearnEnglish/learnEnglish.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/8 LearnEnglish/TranslatedWords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/8 LearnEnglish/TranslatedWords.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/8 LearnEnglish/learnEnglish.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/8 LearnEnglish/learnEnglish.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -473,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670964449541</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="-">
+      <created>1671014732012</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1671014732012</updated>
+    </task>
+    <task id="LOCAL-00036" summary="-">
+      <created>1671014745065</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671014745065</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -511,11 +525,6 @@
           <url>file://$PROJECT_DIR$/Practices/7 books/task.py</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practices/8 LearnEnglish/learnEnglish.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
