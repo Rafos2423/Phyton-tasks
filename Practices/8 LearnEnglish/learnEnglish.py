@@ -66,8 +66,6 @@ def write_file(filename, translate_words: {}, sorted_words: {}):
         line = "{0} - {1} {2} \n".format(en_words[i], ru_words[i], words_count[i])
         f.write(line)
 
-
-
 words = read_file('dialog.txt')
 sorted_words = list_words(words)
 transleted_words = translate(sorted_words)
