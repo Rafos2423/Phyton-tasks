@@ -1,6 +1,7 @@
 import os
 from pdf2docx import parse
 from docx2pdf import convert
+from PIL import Image
 
 def correct_input(min_value, max_value):
     n = input()
@@ -15,9 +16,9 @@ def menu():
     print('\nВыберите действие\n'
               '0 - Сменить рабочий каталог\n'
               '1 - Преобразовать PDF в Docx\n'
-              '2 - Преобразовать Docx в PDF\n'
+              '2 - Преобразовать Doc, Docx в PDF\n'
               '3 - Сжать изображение\n'
-              '4 - Сжать изображение\n'
+              '4 - Удалить группу файлов\n'
               '5 - Выход')
 
     return correct_input(0, 5)
@@ -35,23 +36,39 @@ def change_dir():
     return os.getcwd()
 
 
-def choose_file(dir, format):
+def find_files(dir, format):
     files = []
     for file in os.listdir(dir):
         if os.path.isfile(file):
-            if file.split('.')[-1] == format:
+            if format.__contains__(file.split('.')[-1]):
                 files.append(file)
 
-    if len(files) == 0:
-        print(f'В папке нет файлов формата {format}')
-        return None
-
     for i in range(len(files)):
-        print(f'{i+1} - {files[i]}')
+        print(f'{i + 1} - {files[i]}')
 
-    print('\nВыберите файл для конвертации:')
-    file_num = correct_input(1, len(files))
-    return files[file_num - 1]
+    return files
+
+def choose_files(files, format):
+    print('\nВыберите файл для конвертации (0-для всех файлов):')
+    file_num = correct_input(0, len(files))
+
+    if file_num == 0:
+        for file in files:
+            convert_file(file, format)
+    else:
+        convert_file(files[file_num - 1], format)
+
+def convert_file(file, format):
+    new_format_file = file.replace(file.split('.')[-1], format)
+    try:
+        parse(file, new_format_file)
+    except:
+        print(f'Невозможно преобразовать файл {file}')
+
+
+#def compress_img(img):
+
+
 
 
 catalog = os.getcwd()
@@ -65,17 +82,23 @@ while True:
         print(f'Текущий каталог: {catalog}')
 
     if option == 1:
-        pdf_file = choose_file(catalog, 'pdf')
-        if pdf_file == None:
+        pdf_files = find_files(catalog, ['pdf'])
+        if len(pdf_files) == 0:
+            print(f'В папке нет файлов формата pdf')
             continue
-        docx_file = pdf_file.replace('pdf', 'docx')
-        parse(pdf_file, docx_file)
+
+        choose_files(pdf_files, 'docx')
 
     if option == 2:
-        docx_file = choose_file(catalog, 'docx')
-        if docx_file == None:
+        docx_files = find_files(catalog, ['doc', 'docx'])
+        if len(docx_files) == 0:
+            print(f'В папке нет файлов формата doc, docx')
             continue
-        convert(docx_file)
+
+        choose_files(docx_files, 'pdf')
+
+    if option == 3:
+        image_file = find_files(catalog, ['jpeg', 'gif', 'png', 'jpg', 'img'])
 
 
     if option == 5:
