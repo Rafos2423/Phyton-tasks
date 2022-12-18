@@ -4,8 +4,6 @@
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Practices/9 OfficeTweaks/office_tweaks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/9 OfficeTweaks/office_tweaks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/9 OfficeTweaks/test/Практическая работа №9. Модуль OS. Взаимодействие с компонентами операционной системы (1).docx" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/9 OfficeTweaks/test/Практическая работа №9. Модуль OS. Взаимодействие с компонентами операционной системы (1).docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/9 OfficeTweaks/test/Практическая работа №9. Модуль OS. Взаимодействие с компонентами операционной системы (1).pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671277119694</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="-">
+      <created>1671291548870</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1671291548870</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -554,16 +559,6 @@
           <url>file://$PROJECT_DIR$/Practices/7 books/task.py</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practices/9 OfficeTweaks/office_tweaks.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practices/9 OfficeTweaks/office_tweaks.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
