@@ -1,76 +1,52 @@
-Apple iPhone 14 Pro 256Gb Deep Purple: 109490
-Apple iPhone 13 128Gb Midnight: 61490
-Apple iPhone 14 Pro Max 256Gb Deep Purple: 119990
-Apple iPhone 13 128Gb Blue: 61490
-Apple iPhone 14 128Gb Blue: 71990
-Apple iPhone 14 128Gb Starlight: 71990
-Apple iPhone 14 128Gb Midnight: 71990
-Apple iPhone 14 Pro Max 128Gb Deep Purple: 105490
-Apple iPhone 14 Pro 128Gb Deep Purple: 96990
-Apple iPhone 11 128Gb Black: 44990
-Apple iPhone 14 Pro Max 256Gb Gold: 114490
-Apple iPhone 14 128Gb Purple: 71990
-Apple iPhone 14 Pro Max 256Gb Space Black: 119990
-Apple iPhone 11 64Gb Black: 39990
-Apple iPhone 14 Pro 256Gb Space Black: 109490
-Apple iPhone 14 Pro Max 128Gb Space Black: 103490
-Apple iPhone 14 Pro 128Gb Space Black: 96990
-Apple iPhone 14 Pro Max 256Gb Silver: 114990
-Apple iPhone 14 Pro Max 128Gb Gold: 102990
-Apple iPhone 14 256Gb Blue: 79990
-Apple iPhone 14 Pro 128Gb Gold: 92990
-Apple iPhone 14 Pro 128Gb Silver: 93490
-Apple iPhone 14 Pro 256Gb Gold: 104990
-Apple iPhone 14 Plus 128Gb Purple: 76990
-Apple iPhone 14 256Gb Starlight: 79990
-Apple iPhone 14 Pro Max 128Gb Silver: 102990
-Apple iPhone 14 Pro 512Gb Space Black: 129990
-Apple iPhone 12 128Gb Blue: 55990
-Apple iPhone 14 Pro Max 512Gb Deep Purple: 134490
-Apple iPhone 14 256Gb Midnight: 79990
-Apple iPhone 14 256Gb Purple: 79990
-Apple iPhone 12 128Gb Black: 55490
-Apple iPhone 12 64Gb Blue: 49990
-Apple iPhone 12 128Gb White: 55990
-Apple iPhone 12 64Gb Green: 49990
-Apple iPhone 12 64Gb White: 49990
-Apple iPhone 14 Pro 512Gb Deep Purple: 126490
-Apple iPhone SE (2022) 128Gb Midnight: 40990
-Apple iPhone 13 256Gb Midnight: 72590
-Apple iPhone 14 Pro Max 512Gb Silver: 135490
-Apple iPhone 14 Plus 256Gb Purple: 84990
-Apple iPhone 14 Plus 512Gb Midnight: 89990
+Apple iPhone 14 Pro Max 128Gb Deep Purple: 113990
+Apple iPhone 13 128Gb Pink: 65990
+Apple iPhone 14 Pro 256Gb Silver: 107490
+Apple iPhone 14 Pro 256Gb Gold: 108490
+Apple iPhone 14 Pro Max 128Gb Gold: 110990
+Apple iPhone 14 Pro Max 128Gb Silver: 110990
+Apple iPhone 14 Pro Max 1Tb Deep Purple: 160990
+Apple iPhone 14 Pro Max 512Gb Space Black: 145990
 Apple iPhone 14 Pro 512Gb Silver: 129990
-Apple iPhone 12 128Gb Green: 55990
 Apple iPhone 13 Pro 128Gb Sierra Blue: 97990
-Apple iPhone SE (2022) 128Gb Starlight: 40990
-Apple iPhone 14 Pro Max 1Tb Gold: 142990
-Apple iPhone 13 128Gb Starlight: 61490
-Apple iPhone 13 128Gb Pink: 61490
+Apple iPhone 13 128Gb Midnight: 63990
+Apple iPhone 14 Pro 256Gb Deep Purple: 111990
+Apple iPhone 14 Pro Max 256Gb Deep Purple: 116990
+Apple iPhone 13 128Gb Blue: 63990
+Apple iPhone 13 128Gb Starlight: 63990
+Apple iPhone 14 128Gb Blue: 73990
+Apple iPhone 14 128Gb Starlight: 73990
+Apple iPhone 14 128Gb Midnight: 73990
+Apple iPhone 14 Pro 128Gb Deep Purple: 101990
+Apple iPhone 14 Pro Max 256Gb Gold: 116990
+Apple iPhone 14 Pro Max 256Gb Space Black: 116990
+Apple iPhone 14 128Gb Purple: 73990
+Apple iPhone 11 128Gb Black: 44990
+Apple iPhone 14 Pro 256Gb Space Black: 111990
+Apple iPhone 14 Pro 128Gb Space Black: 101990
 Apple iPhone 11 128Gb White: 44990
 Apple iPhone 11 64Gb White: 39990
+Apple iPhone 11 64Gb Black: 38990
+Apple iPhone 14 Pro Max 128Gb Space Black: 113990
 Apple iPhone 12 Mini 64Gb Black: 36490
-Apple iPhone 14 Pro 256Gb Silver: 104990
+Apple iPhone 14 Pro Max 256Gb Silver: 116990
+Apple iPhone 14 256Gb Blue: 79990
+Apple iPhone 14 Pro 128Gb Silver: 101990
+Apple iPhone 14 Pro 128Gb Gold: 93990
 Apple iPhone 11 128Gb Product Red: 44990
+Apple iPhone 14 Plus 128Gb Purple: 76990
 Apple iPhone 12 64Gb Black: 46990
-Apple iPhone 13 Mini 128Gb Pink: 53990
+Apple iPhone 12 128Gb Black: 56490
+Apple iPhone 14 256Gb Midnight: 79990
+Apple iPhone 14 Pro 512Gb Space Black: 129990
 Apple iPhone 13 Mini 128Gb Green: 53990
-Apple iPhone 13 128Gb Green: 61490
-Apple iPhone 12 64Gb Purple: 47490
-Apple iPhone 14 Pro Max 1Tb Deep Purple: 142990
-Apple iPhone 13 Mini 128Gb Blue: 50490
-Apple iPhone 14 128Gb Red: 71990
-Apple iPhone 14 Plus 128Gb Midnight: 77990
+Apple iPhone 14 256Gb Starlight: 79990
+Apple iPhone 14 128Gb Red: 73990
+Apple iPhone 13 Mini 128Gb Pink: 53990
+Apple iPhone 12 128Gb Blue: 57490
+Apple iPhone 14 Pro Max 512Gb Deep Purple: 145990
+Apple iPhone 14 256Gb Purple: 79990
 Apple iPhone 13 Mini 128Gb Starlight: 50990
-Apple iPhone 13 Mini 256Gb Pink: 60490
-Apple iPhone 14 Pro Max 512Gb Space Black: 135490
-Apple iPhone 14 Plus 128Gb Blue: 76990
-Apple iPhone 14 Plus 256Gb Red: 84990
-Apple iPhone 13 Pro Max 128Gb Sierra Blue: 92490
-Apple iPhone 14 Plus 512Gb Starlight: 89990
-Apple iPhone 14 Plus 128Gb Red: 77990
-Apple iPhone 13 Pro 1Tb Green: 106990
 
 min: 36490 
-max: 142990 
-avg: 81394 
+max: 160990 
+avg: 57834 
