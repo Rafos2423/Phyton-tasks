@@ -2,7 +2,6 @@ import random
 
 def choose_continue_game(words: list[str]) -> bool:
     '''
-
     :param words: список слов для игры
     :return: выбор пользователя продолжения игры
     '''
@@ -18,7 +17,6 @@ def choose_continue_game(words: list[str]) -> bool:
 
 def find_word(words: list[str]) -> str:
     '''
-
     :param words: список слов для игры
     :return: случайное слово из списка
     '''

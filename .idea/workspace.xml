@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/Practices/t13_SuperStr/SuperStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practices/t13_SuperStr/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/t14_X_O/Board.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/t14_X_O/Move.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/t14_X_O/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/12 OOP_Base/Car.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t12_OOP_Base/Car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/12 OOP_Base/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t12_OOP_Base/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/12 OOP_Base/math.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t12_OOP_Base/Math.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/12 OOP_Base/student.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t12_OOP_Base/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/3 Pole/Many_games.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/3 Pole/Many_games.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
       <recent name="D:\код\Py\Phyton-tasks\Practices\10 ImageCompress" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (3)">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,6 +162,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Пугачев В." />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practices/t14_X_O" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practices/t14_X_O/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,27 +196,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practices/OOP_Base/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="parse_catalog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Пугачев В." />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practices/11 Parse" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practices/11 Parse/parse_catalog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.student" />
-        <item itemvalue="Python.parse_catalog" />
       </list>
     </recent_temporary>
   </component>
@@ -575,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677668502262</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="-">
+      <created>1679482113015</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1679482113015</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -613,16 +618,6 @@
           <url>file://$PROJECT_DIR$/Practices/7 books/task.py</url>
           <line>4</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practices/t13_SuperStr/SuperStr.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Practices/t13_SuperStr/main.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
