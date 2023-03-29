@@ -1,6 +1,6 @@
-from Practices.OOP_Base.Car import Car
-from Practices.OOP_Base.math import Math
-from Practices.OOP_Base.student import Student
+from Practices.t12_OOP_Base.Car import Car
+from Practices.t12_OOP_Base.Math import Math
+from Practices.t12_OOP_Base.Student import Student
 
 first = Student("Tom", 18, "11A")
 first.printInfo()
