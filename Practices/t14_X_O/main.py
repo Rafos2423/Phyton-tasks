@@ -2,7 +2,8 @@ from Practices.t14_X_O.Move import Move
 from Practices.t14_X_O.Board import Board
 
 class Game:
-    def __init__(self):
+
+    def Play(self):
         move = Move()
         board = Board()
         icon = 'X'
@@ -22,5 +23,5 @@ class Game:
                 icon = 'O'
             elif icon == 'O':
                 icon = 'X'
-        
+
         print('The game ends')
