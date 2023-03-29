@@ -13,12 +13,6 @@ class Move:
             return Move.__input_position_move(self)
 
         return int(choice) - 1
-    def __computer_position_move(self, board):
-        for row in board.victory_positions:
-            symbols = []
-            for i in range(len(row)):
-                symbols.append(board[row[i]])
-            print(symbols)
 
 
 
@@ -27,7 +21,7 @@ class Move:
         board.print_board()
 
         while True:
-            pos = Move.__computer_position_move(self, board)
+            pos = Move.__input_position_move(self)
             if board.add_to_board(pos, icon):
                 break
 
