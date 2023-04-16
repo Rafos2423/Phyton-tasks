@@ -27,6 +27,7 @@ class Board:
         print(f"\n {delimeter} \n {row1} \n {delimeter} \n {row2} \n {delimeter}  \n {row3} \n {delimeter} ")
 
     def is_victory(self):
+        Olist = list(filter(lambda x: x == ['X', ' ', ' '], self.victory_positions))
         return self.board[0] == self.board[1] == self.board[2] and self.board[0] != ' ' or \
                 self.board[3] == self.board[4] == self.board[5] and self.board[3] != ' ' or \
                 self.board[6] == self.board[7] == self.board[8] and self.board[6] != ' ' or \
