@@ -1,5 +1,5 @@
-from Practices.t14_X_O.Move import Move
-from Practices.t14_X_O.Board import Board
+from TasksOnLessons.X_O.Move import Move
+from TasksOnLessons.X_O.Board import Board
 
 class Game:
 

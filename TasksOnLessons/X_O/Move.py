@@ -1,5 +1,5 @@
-from Practices.t14_X_O.Board import Board
-import random
+from TasksOnLessons.X_O.Board import Board
+
 class Move:
     def __input_position_move(self):
         choice = input('\nEnter your move 1-9: ')
