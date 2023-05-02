@@ -1,7 +1,8 @@
 import PySimpleGUI as sg
+import os
 
-from Practices.t16_PySimpleGUI.delete_menu import delete_group_files
-from Practices.t16_PySimpleGUI.funcs import *
+from Practices.t16_PySimpleGUI.change_dir import change_dir
+from Practices.t16_PySimpleGUI.change_files import change
 
 layout = [
     [sg.Text('Выберите действие:')],
@@ -16,7 +17,6 @@ layout = [
 window = sg.Window('Менеджер файлов').Layout(layout)
 
 catalog = os.getcwd()
-print(f'Текущий каталог: {catalog}')
 
 while True:
     event, values = window.Read()
@@ -25,7 +25,6 @@ while True:
     if event == 'execute':
         if values['change_dir']:
             catalog = change_dir()
-            print(f'Текущий каталог: {catalog}')
             pass
 
         elif values['pdf_to_docx']:
@@ -41,7 +40,6 @@ while True:
             pass
 
         elif values['delete_files']:
-            delete_group_files(catalog)
             pass
 
 window.Close()
