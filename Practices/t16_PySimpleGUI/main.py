@@ -3,6 +3,7 @@ import os
 
 from Practices.t16_PySimpleGUI.change_dir import change_dir
 from Practices.t16_PySimpleGUI.change_files import change
+from Practices.t16_PySimpleGUI.delete_files import delete
 
 layout = [
     [sg.Text('Выберите действие:')],
@@ -40,6 +41,7 @@ while True:
             pass
 
         elif values['delete_files']:
+            delete(catalog)
             pass
 
 window.Close()

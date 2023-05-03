@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/change_dir.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/change_files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/delete_files.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/delete_menu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/funcs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test/first.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test/first.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test/Практическая работа №8. Установка и использование сторонних фреймворков.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test/Практическая работа №8. Установка и использование сторонних фреймворков.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test/Практическая работа №8. Установка и использование сторонних фреймворков.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test/Практическая работа №8. Установка и использование сторонних фреймворков.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
