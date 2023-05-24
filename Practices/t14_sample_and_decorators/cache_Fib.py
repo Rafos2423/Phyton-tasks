@@ -1,15 +1,15 @@
 import time
 
 
-def time_it(func):
+def time_it(*args):
     start_time = time.time()
-    result = func(100)
+    result = args[0](args[1])
     end_time = time.time()
-    print(f"Время работы функции {func.__name__}: {end_time - start_time} секунд")
+    print(f"Время работы функции {args[0].__name__}: {end_time - start_time} секунд")
     return result
 
 
-def fibonacci_cache(func):
+def fibonacci_cache(n):
     cache = {}
 
     def wrapper(n):
@@ -39,6 +39,6 @@ def fibonacci_cached(n):
     return n if n == 0 or n == 1 else fibonacci_cached(n - 1) + fibonacci_cached(n - 2)
 
 
-print(fibonacci(30))
-print(fibonacci_cached(30))
-print(fibonacci_cached(40))
+print(fibonacci(30, 10))
+print(fibonacci_cached(30, 10))
+print(fibonacci_cached(40, 10))

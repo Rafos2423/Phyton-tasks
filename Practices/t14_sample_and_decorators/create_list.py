@@ -2,11 +2,16 @@ import time
 
 
 def time_it(func):
-    start_time = time.time()
-    result = func(1000000)
-    end_time = time.time()
-    print(f"Время работы функции {func.__name__}: {end_time - start_time}")
-    return result
+    def wrapper(*args, **kwargs):
+        try:
+            start_time = time.time()
+            result = func(*args, **kwargs)
+            end_time = time.time()
+            print(f"Время работы функции {func.__name__}: {end_time - start_time}")
+            return result
+        except Exception as ex:
+            print(f"Работа функции прекращена из-за непредвиденной ошибки: {str(ex)}")
+    return wrapper
 
 
 @time_it
@@ -22,3 +27,6 @@ def even_numbers_append(n):
 def even_numbers_comprehension(n):
     even_list = [i for i in range(n + 1) if i % 2 == 0]
     return even_list
+
+print(even_numbers_append(30))
+print(even_numbers_comprehension(30))
