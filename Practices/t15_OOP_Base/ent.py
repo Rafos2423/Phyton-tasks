@@ -27,12 +27,11 @@ class Lecturer(Mentor):
             if course in self.grades:
                 self.grades[course].append(grade)
 
-
     def __str__(self):
         if len(self.grades) == 0:
             return 'нет оценок'
         avg_grade = sum(self.grades) / len(self.grades)
-        return f'Имя: {self.name}\nФамилия: {self.surname}\nСредняя оценка за лекции: {avg_grade:.1f}'
+        return f'Имя: {self.name} Фамилия: {self.surname} Средняя оценка за лекции {avg_grade:.1f}'
 
 
 class Reviewer(Mentor):
@@ -47,7 +46,7 @@ class Reviewer(Mentor):
                 student.grades[course] = [grade]
 
     def __str__(self):
-        return f"Имя: {self.name}\nФамилия: {self.surname}"
+        return f"Имя: {self.name} Фамилия: {self.surname}"
 
 
 class Student:
@@ -60,6 +59,11 @@ class Student:
 
     def add_course(self, course_name):
         self.courses_in_progress.append(course_name)
+
+    def finish_course(self, course_name):
+        if course_name in self.courses_in_progress:
+            self.courses_in_progress.remove(course_name)
+            self.finished_courses.append(course_name)
 
     def rate_lecture(self, lecturer, course, grade):
         if isinstance(lecturer, Lecturer) and course in lecturer.courses:
@@ -84,5 +88,5 @@ class Student:
             len(grades) for grades in self.grades.values())
         courses_in_progress = ', '.join(self.courses_in_progress)
         finished_courses = ', '.join(self.finished_courses)
-        return f'Имя: {self.name} Фамилия: {self.surname}\nСредняя оценка за домашние задания: {avg_grade:.1f}\n' \
+        return f'Имя: {self.name} Фамилия: {self.surname}\nСредняя оценка за домашние задания {avg_grade:.1f} \n' \
                f'Курсы в процессе изучения: {courses_in_progress}\nЗавершенные курсы: {finished_courses}'

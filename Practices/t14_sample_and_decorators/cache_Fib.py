@@ -1,15 +1,36 @@
 import time
+from functools import wraps
 
 
-def time_it(*args):
-    start_time = time.time()
-    result = args[0](args[1])
-    end_time = time.time()
-    print(f"Время работы функции {args[0].__name__}: {end_time - start_time} секунд")
-    return result
+total_time = 0
+
+def time_it(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        global total_time
+        start_time = time.time()
+        result = func(*args, **kwargs)
+        end_time = time.time()
+        total_time += (end_time - start_time)
+        return result
+    return wrapper
 
 
-def fibonacci_cache(n):
+
+def time_it_cached(func):
+    def wrapper(*args, **kwargs):
+        try:
+            start_time = time.time()
+            result = func(*args, **kwargs)
+            end_time = time.time()
+            print(f"Время работы функции fibonacci cached: {end_time - start_time}")
+            return result
+        except Exception as ex:
+            print(f"Работа функции прекращена из-за непредвиденной ошибки: {str(ex)}")
+    return wrapper
+
+
+def fibonacci_cache(func):
     cache = {}
 
     def wrapper(n):
@@ -33,12 +54,16 @@ def fibonacci(n):
     return n if n == 0 or n == 1 else fibonacci(n - 1) + fibonacci(n - 2)
 
 
-@time_it
+@time_it_cached
 @fibonacci_cache
 def fibonacci_cached(n):
     return n if n == 0 or n == 1 else fibonacci_cached(n - 1) + fibonacci_cached(n - 2)
 
 
-print(fibonacci(30, 10))
-print(fibonacci_cached(30, 10))
-print(fibonacci_cached(40, 10))
+print(fibonacci(20))
+print(f"Время работы функции fibonacci: {total_time}")
+
+print(fibonacci_cached(100000))
+print(fibonacci_cached(100000))
+
+

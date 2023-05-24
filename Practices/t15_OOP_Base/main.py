@@ -33,6 +33,9 @@ student2.add_course(course1)
 student1.grades = {course2: [5, 4], course1: [4]}
 student2.grades = {course2: [4, 3], course1: [5]}
 
+student1.finish_course(course1)
+student2.finish_course(course2)
+
 # Выводим информацию о всех созданных экземплярах
 print(f"Добавлен проверяющий: {reviewer1}")
 print(f"Добавлен проверяющий: {reviewer2}")
@@ -43,19 +46,21 @@ print(f"Добавлен лектор: {lecturer2}")
 print(f"Добавлен студент: {student1}")
 print(f"Добавлен студент: {student2}")
 
+print(f"Лектор ведет пары у студента: {lecturer1.__bool__(student1)}")
 
-# Функция для подсчета средней оценки за лекции всех лекторов в рамках курса
+
+# Функция для подсчета средней оценки в рамках курса
 # params: list: Список студентов или лекторов
 def avg_grade_hw(person_list, course_name):
-    grades = []
+    grade_sum = 0
+    courses = 0
     for person in person_list:
         if course_name in person.courses_in_progress:
-            grades.extend(person.grades.values())
-    if grades:
-        return sum(grades) / len(grades)
-    else:
-        return 0
+            grade_sum += sum(map(lambda sublist: sum(sublist), person.grades.values()))
+            courses += 1
+    return grade_sum / courses
 
-print(avg_grade_hw([student1, student2], course2))
-print(avg_grade_hw([student1, student2], course1))
+
+print(f"Средняя оценки за курс {course2} ученика {student1}: {avg_grade_hw([student1], course2)}")
+print(f"Cредняя оценка за курс {course1} учеников {student1} {student2}: {avg_grade_hw([student1, student2], course1)}")
 
