@@ -87,3 +87,4 @@ def change(dir, format):
             break
 
     window.close()
+

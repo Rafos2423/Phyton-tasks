@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d78ad3-1893-4501-be34-b1f0ca5d4f7f" name="Changes" comment="- Добавлено удаление группы файлов;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t14_sample_and_decorators/cache_Fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t14_sample_and_decorators/cache_Fib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t14_sample_and_decorators/create_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t14_sample_and_decorators/create_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t15_OOP_Base/ent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t15_OOP_Base/ent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practices/t15_OOP_Base/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t15_OOP_Base/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/change_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Practices/t16_PySimpleGUI/change_files.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +38,24 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/код/Py/Phyton-tasks/Practices/t16_PySimpleGUI&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/код/Py/Phyton-tasks/Practices&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\код\Py\Phyton-tasks\Practices" />
       <recent name="D:\код\Py\Phyton-tasks\Practices\t16_PySimpleGUI" />
       <recent name="D:\код\Py\Phyton-tasks\Practices\10 ImageCompress" />
       <recent name="D:\Code\Py\Phyton-tasks\Practices\9 OfficeTweaks" />
       <recent name="D:\Code\Py\Practice" />
-      <recent name="C:\Users\Student\Python Жуков Пугачев\Dir" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\код\Py\Phyton-tasks\Practices\t14_sample_and_decorators" />
       <recent name="D:\код\Py\Phyton-tasks\Practices\10 ImageCompress" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cache_Fib">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,27 +182,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Пугачев В." />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practices/t16_PySimpleGUI" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practices/t16_PySimpleGUI/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Пугачев В." />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -227,13 +203,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Пугачев В." />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Practices/t16_PySimpleGUI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Practices/t16_PySimpleGUI/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.cache_Fib" />
         <item itemvalue="Python.create_list" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.ent" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -245,13 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664264805099</updated>
-    </task>
-    <task id="LOCAL-00005" summary="-">
-      <created>1664265887996</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1664265887996</updated>
     </task>
     <task id="LOCAL-00006" summary="-">
       <created>1664270113869</created>
@@ -589,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683093574360</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="- Добавлено удаление группы файлов;">
+      <created>1684962713960</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1684962713960</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="UnknownFeatures">
